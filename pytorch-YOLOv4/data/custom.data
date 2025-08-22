@@ -1,0 +1,5 @@
+classes = 1
+train = data/train.txt
+valid = data/train.txt  # 我們可以用同一份，或手動分割
+names = data/custom.names
+backup = backup/  # 儲存權重備份的地方

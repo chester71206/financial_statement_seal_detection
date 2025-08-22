@@ -1,0 +1,9 @@
+# Train/val/test sets
+# 我們讓腳本自動從 train 數據中分割驗證集
+path: ../datasets/stamp_data  # ！！！重要：從 data/ 目錄往上一層，再進入 datasets/
+train: images
+val: images
+
+# Classes
+nc: 1  # 你的類別數量
+names: ['stamp']  # 你的類別名稱
