@@ -1,0 +1,5 @@
+numpy
+torch
+tqdm
+easydict
+opencv_python
